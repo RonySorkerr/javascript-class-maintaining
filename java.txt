@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*
+        var text = prompt("Enter your name \n");
+        document.write(text);
+        document.write("Your name have " + text.length + "characters.");
+        */
+/*
+        var text = "bangladesh<br>";
+        //document.write(text.charAt(3));
+        text = text.toUpperCase(text);
+        document.write(text);
+
+         var text1 = "desh country is not as beauty as me ";
+         var text2 = "Find some one you like";
+
+         // document.write(text1.concat(text2)); //[concatenation]
+
+         var texT = text1.concat(text2);
+         document.write(texT);
+
+         document.write(text.slice(0, 6))*/
+             </script>
+
+    <script>
+        var name = prompt("Enter Your First name here : ");
+        var lname = prompt("Enter Your Last name here : ");
+        var Fname = name + lname;
+        document.write(Fname);
+        document.write(Fname.length);
+        Fname = Fname.toUpperCase;
+        document.write(Fname.toUpperCase(Fname));
+        document.write(Fname.charAt(2));
+    </script>
+</body>
+
+</html>

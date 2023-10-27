@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Your Message to Us</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            width: 60%;
+            text-align: center;
+        }
+        fieldset{
+            border: 1px solid red;
+        }
+        label{
+            padding: 20px;
+        }
+        input{
+            padding: 3px;
+        }
+        textarea{
+            margin: auto;
+            display: flex;
+        }
+        button{
+            margin: auto;
+            padding-inline: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Start A Conversation</legend>
+                <h2>Tell us more about the house you like</h2>
+                <label for="name">Enter Your Name : </label>
+                <input type="text" placeholder="Enter Your Name" required><br><br>
+                <label for="email" req>Enter Your E-mail:</label>
+                <input type="email" placeholder="Enter Your E-mail" required><br><br>
+                <label for="number">Enter Your Phone Number</label>
+                <input type="number" placeholder="Enter Your Phone Number" required>
+                <p>Describe us about what you are letting us know.</p>
+                <textarea name="Message" id="message" cols="30" rows="10" placeholder="Tell Us more about what you are letting us know"></textarea><br>
+                <button type="submit">Send</button>
+                <button type="reset">Delete</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <script>
+        //Firth three functions//
+        
+        //alert("You have sucessfully submitted the form");
+        document.write("I have not shown you the main thing  <br> many thanks to the online For teaching me these things. <br>");
+        console.log("You have been shown the wrong thing.");
+        //console shows the texts in the console site
+
+        document.write("I have learnt html <br> css <br> Javascript (learning) <br>");
+
+        document.write("Name : MD:Rony Sorker<br>" );
+        document.write("Father's Name : MD: Esa Miah<br>");
+        document.write("Mother's Name : MST: Jarana <br>");
+        document.write("Date of Birth : 04/12/2004<br>");
+        document.write("Blood group :  AB<sup>+ve</sup> <br>");
+        document.write("Religion :  Islam <br>");
+        document.write("Nationality :   Bengali <br>");
+        document.write("Marital Status :   Single  <br>");
+    </script>
+     <script>
+        var x = "<mark>My name is Rony sorker </mark><br>";
+        var y = "His name is siyam <br><br>";
+        document.write( x, y);
+        document.write(y, x)
+
+        //a variables name can not start with a digit. 
+        /* A var name can contain $, _, digit and characters*/
+
+        var firstName = "Rony ";
+        var lastName = "sorker <br>"
+        //this is call camol casing. Keeping the vars second name's first letter capital. It is used for readablity. 
+        document.write(firstName);
+        document.write(lastName);
+
+        // var name, age, country, location, dateOfBirth, lastJob;
+        namE = "Rony <br>";
+        age = 21;
+        country = "Bangladesh <br>";
+        locatioN = "Habiganj <br>";
+        dateOfBirth = 0/12/2044;
+        lastJob = "Data entry specialist <br>";
+        
+        
+        document.write(x, namE, lastJob);
+
+        var num = 69;
+        
+        num = toString(num);
+
+        console.log(typeof(num));
+        //document.write(num);
+
+        var high = 20.365;
+
+        //high = parseInt(high);
+
+        console.log(high);
+
+        typeof(high);
+
+        //let's change the types of data from one to another
+        var namee = "Rony";
+        var agee = 21.5;
+        var roole = 43;
+
+        agee = parseInt(agee);
+        roole = parseFloat(roole);
+
+        console.log(namee);
+        console.log(agee);
+        console.log(roole)
+        
+        console.log(typeof(namee));
+        console.log(typeof(agee));
+        console.log(typeof(roole));
+
+        //to fixed 
+        var neW = 2.14589;
+        
+        console.log(neW.toFixed(3)); //This line is about how many numbers we want to show after a point (.)
+
+        document.write(neW.toFixed(3));
+
+
+        xu = 50.69358;
+
+        var Ime = 130.56987;
+
+        document.write(xu.toFixed(3));
+
+        document.write(Ime.toPrecision(4)); // this will show the length of a var number. If we set it 2 it will show it will show the total 2 number from the var.
+        // For more clearity 
+        var FiNe = 4568798;
+
+        document.write(FiNe.toPrecision(5))
+        
+        
+     </script>
+
+     <script>
+        // string concatenation
+        var firstName1 = "Rony"
+        var lastName2 = "Sorker"
+        var fullName = firstName + lastName;
+        var Age = 21;
+        document.write("My Name is " + fullName + "And I am " + Age + " Years Old");
+
+     </script>
+</body>
+</html>
