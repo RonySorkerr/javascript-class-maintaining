@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <script>
+        var a = prompt("Enter your first number :");
+        var b = prompt("Enter Your second number: ");
+
+        a = parseInt(a,10);
+        b = parseInt(b,10);
+
+        var addition = a+b;
+        var substraction = a-b;
+        var multiplication = a*b;
+        var division = a/b;
+        var floor = a%b;
+
+        document.write(a, "+", b, "=", addition+ "<br>")
+        document.write(a, "-", b, "=", substraction+ "<br>")
+        document.write(a, "*", b, "=", multiplication+ "<br>")
+        document.write(a, "/", b, "=", division+ "<br>")
+        document.write(a, "%", b, "=", floor+ "<br>")
+
+
+    </script>
+</body>
+</html>
