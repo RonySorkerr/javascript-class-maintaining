@@ -1,21 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    width: 95%;
+    margin: auto;
+}
+
+.hero{
+    margin: auto;
+}
 
 .top_left{
     display: flex;
+    margin: auto;
     justify-content: space-between;
     background-color: wheat;
-    padding: 1rem;
     font-size: 0.7rem;
+    padding: 10px;
+}
+
+.links{
+    padding: 10px;
+}
+.icons{
+    padding: 10px;
 }
 
 .top_left a{
-    padding: 10px;
     text-decoration: none;
+    padding: 10px;
 }
 
 .links button{
     border: none;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: white;
     background-color: green;
     padding: 0.3rem;
@@ -28,7 +49,33 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-@media only screen and (max-width:780px) and (min-width:460px) {
+
+.catagory{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btns:focus{
+    background-color: aqua;
+    transition: 0.3s all ease;
+}
+
+.btns{
+    padding: 2px;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+
+
+
+
+
+
+
+/* media query starts here */
+@media only screen and (max-width:855px) and (min-width:472px) {
     .top_left{
         display: flex;
         background-color: rgba(255, 0, 0, 0.151);
@@ -47,7 +94,7 @@
 
 }
 
-@media only screen and (max-width:459px) {
+@media only screen and (max-width:471px) {
     .top_left{
         display: inline;
         margin: auto;
