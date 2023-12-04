@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'DM Serif Display', serif;
 }
 
 body{
     width: 95%;
     margin: auto;
+    /* font-family: 'Hedvig Letters Serif', serif; */
+    font-family: 'Playfair Display', serif;
 }
 
 .hero{
@@ -17,8 +24,8 @@ body{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    background-color: wheat;
-    font-size: 0.7rem;
+    background-color: rgba(245, 222, 179, 0.623);
+    font-size: 0.8rem;
     padding: 10px;
 }
 
@@ -35,12 +42,13 @@ body{
 }
 
 .links button{
+    cursor: pointer;
     border: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: white;
     background-color: green;
     padding: 0.3rem;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.5s ease all;
 }
@@ -51,20 +59,24 @@ body{
 
 
 .catagory{
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
 .btns:focus{
-    background-color: aqua;
+    background-color: rgb(83, 83, 83);
+    color: white;
     transition: 0.3s all ease;
 }
 
 .btns{
-    padding: 2px;
+    padding: 0.3rem;
     border: none;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid rgb(170, 170, 170);
+    background-color: transparent;
+    border-radius: 1rem;
 }
 
 
@@ -75,7 +87,7 @@ body{
 
 
 /* media query starts here */
-@media only screen and (max-width:855px) and (min-width:472px) {
+@media only screen and (max-width:870px) and (min-width:472px) {
     .top_left{
         display: flex;
         background-color: rgba(255, 0, 0, 0.151);
@@ -92,9 +104,12 @@ body{
         grid-template-columns: repeat(3,1fr);
     }
 
+    .catagory{
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width:471px) {
+@media only screen and (max-width:510px) {
     .top_left{
         display: inline;
         margin: auto;
@@ -132,5 +147,9 @@ body{
         background-color: pink;
         box-shadow: green 0px 1px 3px 0px, rgba(145, 145, 145, 0.959) 0px 1px 2px 0px;
         border-radius: 20%;
+    }
+
+    .catagory{
+        
     }
 }
