@@ -57,6 +57,48 @@ body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+/* s_bar styling */
+.l_v_c{
+    display: flex;
+    margin: auto;
+    gap: 2rem;
+}
+
+.s_bar h2{
+    margin-bottom: 2rem;
+}
+
+.s_bar{
+    margin-top: 2rem;
+    background-color: wheat;
+    padding: 1rem;
+}
+
+.l_jobs{
+    display: flex;
+
+}
+
+.l_jobs .sign{
+    padding: 0.8rem;
+}
+
+.l_jobs h4{
+    letter-spacing: 0.5rem;
+}
+
+.vcnc{
+    display: flex;
+}
+
+.vcnc .sign{
+    padding: 0.8rem;
+}
+
+.vcnc h4{
+    letter-spacing: 0.5rem;
+}
+
 
 .catagory{
     width: 60%;
@@ -96,7 +138,7 @@ body{
 
 
 /* media query starts here */
-@media only screen and (max-width:870px) and (min-width:472px) {
+@media only screen and (max-width:900px) and (min-width:472px) {
     .top_left{
         display: flex;
         background-color: rgba(255, 0, 0, 0.151);
@@ -120,6 +162,8 @@ body{
     .catagories{
         width: 100%;
     }
+
+
 }
 
 @media only screen and (max-width:510px) {
@@ -136,7 +180,6 @@ body{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-
 
     .links a{
         word-spacing: 10px;
