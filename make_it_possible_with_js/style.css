@@ -150,6 +150,19 @@ body{
     }
 
     .catagory{
-        
+        display: inline;
+        margin: auto;        
+    }
+
+    .btns{
+        display: inline-block;
+        margin: auto;
+        background-color: red;
+    }
+
+    .catgry{
+        display: flex;
+        margin: auto;
+        background-color: wheat;
     }
 }
