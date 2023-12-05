@@ -58,25 +58,29 @@ body{
 }
 
 /* s_bar styling */
+.s_bar{
+    margin-top: 2rem;
+    background-color: wheat;
+    padding: 1rem;
+    width: 60%;
+}
+
 .l_v_c{
     display: flex;
     margin: auto;
-    gap: 2rem;
+    gap: 1rem;
+    font-size: 0.9rem;
 }
 
 .s_bar h2{
     margin-bottom: 2rem;
 }
 
-.s_bar{
-    margin-top: 2rem;
-    background-color: wheat;
-    padding: 1rem;
-}
+
 
 .l_jobs{
     display: flex;
-
+    width: max-content;
 }
 
 .l_jobs .sign{
@@ -89,6 +93,7 @@ body{
 
 .vcnc{
     display: flex;
+    width: max-content;
 }
 
 .vcnc .sign{
@@ -98,6 +103,39 @@ body{
 .vcnc h4{
     letter-spacing: 0.5rem;
 }
+
+.companies{
+    display: flex;
+    width: max-content;
+}
+
+.companies .sign{
+    padding: 0.8rem;
+}
+
+.companies h4{
+    letter-spacing: 0.5rem;
+}
+
+.n_jobs{
+    display: flex;
+    width: max-content;
+}
+
+.n_jobs .sign{
+    padding: 0.8rem;
+}
+
+.n_jobs h4{
+    letter-spacing: 0.5rem;
+}
+
+
+
+
+
+
+/* s_bar style ends here */
 
 
 .catagory{
@@ -163,8 +201,22 @@ body{
         width: 100%;
     }
 
+    .l_v_c{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);grid-template-rows: repeat(1,1fr);
+    }
+
+    .s_bar{
+        width: 100%;
+
+    }
+
 
 }
+
+/* TABLET STYLING ENDS HERE */
+
+/* PHONE STYLING STARTS HERE */
 
 @media only screen and (max-width:510px) {
     .top_left{
@@ -221,4 +273,19 @@ body{
         display: flex;
         margin-top: 1rem;
     }
+
+    .s_bar{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .l_v_c{
+        display: inline;
+        margin: auto;
+        width: 50%;
+    }
+
+
+
 }
