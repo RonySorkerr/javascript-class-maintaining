@@ -79,6 +79,15 @@ body{
     border-radius: 1rem;
 }
 
+.catagories{
+    width: 60%;
+}
+
+.links_functionals a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
@@ -105,6 +114,10 @@ body{
     }
 
     .catagory{
+        width: 100%;
+    }
+
+    .catagories{
         width: 100%;
     }
 }
@@ -157,12 +170,12 @@ body{
     .btns{
         display: inline-block;
         margin: auto;
-        background-color: red;
+
     }
 
     .catgry{
-        display: flex;
         margin: auto;
-        background-color: wheat;
+        display: flex;
+        margin-top: 1rem;
     }
 }
