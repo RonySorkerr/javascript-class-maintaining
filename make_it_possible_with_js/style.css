@@ -80,7 +80,9 @@ body{
 
 .l_jobs{
     display: flex;
-    width: max-content;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.2rem;
 }
 
 .l_jobs .sign{
@@ -93,7 +95,9 @@ body{
 
 .vcnc{
     display: flex;
-    width: max-content;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.2rem;
 }
 
 .vcnc .sign{
@@ -106,7 +110,10 @@ body{
 
 .companies{
     display: flex;
-    width: max-content;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.2rem;
+
 }
 
 .companies .sign{
@@ -119,7 +126,9 @@ body{
 
 .n_jobs{
     display: flex;
-    width: max-content;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.2rem;
 }
 
 .n_jobs .sign{
@@ -132,11 +141,20 @@ body{
 
 
 
+/* temporary check for the live jobs making center */
+
+
+
 
 
 
 /* s_bar style ends here */
 
+.catgry{
+    margin: auto;
+    display: flex;
+    background-color: red;
+}
 
 .catagory{
     width: 60%;
@@ -275,13 +293,13 @@ body{
     }
 
     .s_bar{
-        width: 60%;
+        width: 95%;
         margin: auto;
         text-align: center;
     }
 
     .l_v_c{
-        display: inline;
+        display: inline-block;
         margin: auto;
         width: 50%;
     }
